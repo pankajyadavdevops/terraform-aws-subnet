@@ -6,7 +6,7 @@ provider "aws" {
 ## Vpc Module call.
 ##-----------------------------------------------------------------------------
 module "vpc" {
-  source      = "git@github.com:pankajyadavdevops/terraform-aws-vpc.git?ref=master"
+  source      = "git@github.com:pankajyadavdevops/terraform-aws-vpc.git"
   version     = "1.0.3"
   name        = "app"
   environment = "test"
