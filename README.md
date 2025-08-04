@@ -176,9 +176,9 @@ This project is licensed under the **MIT** License - see the [LICENSE](https://g
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_database-labels"></a> [database-labels](#module\_database-labels) | pankajyadavdevops/labels/aws | 1.0.2 |
-| <a name="module_private-labels"></a> [private-labels](#module\_private-labels) | pankajyadavdevops/labels/aws | 1.0.2 |
-| <a name="module_public-labels"></a> [public-labels](#module\_public-labels) | pankajyadavdevops/labels/aws | 1.0.2 |
+| <a name="module_database-labels"></a> [database-labels](#module\_database-labels) | https://github.com/pankajyadavdevops/terraform-aws-labels.git | 1.0.2 |
+| <a name="module_private-labels"></a> [private-labels](#module\_private-labels) | https://github.com/pankajyadavdevops/terraform-aws-labels.git | 1.0.2 |
+| <a name="module_public-labels"></a> [public-labels](#module\_public-labels) | https://github.com/pankajyadavdevops/terraform-aws-labels.git | 1.0.2 |
 
 ## Resources
 

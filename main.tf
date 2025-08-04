@@ -8,7 +8,7 @@ locals {
 ## Labels module called that will be used for naming and tags.
 ##-----------------------------------------------------------------------------
 module "private-labels" {
-  source      = "pankajyadavdevops/labels/aws"
+  source      = "https://github.com/pankajyadavdevops/terraform-aws-labels.git"
   version     = "1.0.2"
   name        = var.name
   repository  = var.repository
@@ -22,7 +22,7 @@ module "private-labels" {
 }
 
 module "public-labels" {
-  source      = "pankajyadavdevops/labels/aws"
+  source      = "https://github.com/pankajyadavdevops/terraform-aws-labels.git"
   version     = "1.0.2"
   repository  = var.repository
   environment = var.environment
@@ -35,7 +35,7 @@ module "public-labels" {
 }
 
 module "database-labels" {
-  source      = "pankajyadavdevops/labels/aws"
+  source      = "https://github.com/pankajyadavdevops/terraform-aws-labels.git"
   version     = "1.0.2"
   repository  = var.repository
   environment = var.environment
